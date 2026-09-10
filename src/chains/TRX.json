@@ -1,0 +1,9 @@
+{
+  "title": "TRX",
+  "network": "TRON",
+  "startsWith": "T",
+  "prefixTest": "(?![0OI])[1-9a-zA-Z]",
+  "rareSymbols": "[1-9a-z]",
+  "apps": ["tronlink", "trustwallet"],
+  "flags": ["m", "p", "s"]
+}

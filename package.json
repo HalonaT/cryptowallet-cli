@@ -1,0 +1,162 @@
+{
+  "name": "@yerofey/cryptowallet-cli",
+  "version": "1.44.0",
+  "description": "Crypto wallet generator CLI tool",
+  "type": "module",
+  "homepage": "https://github.com/yerofey/cryptowallet-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yerofey/cryptowallet-cli.git"
+  },
+  "author": "Yerofey S. <pm@yerofey.dev> (https://github.com/yerofey)",
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/Jerofej"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/yerofey"
+    },
+    {
+      "type": "bitcoin",
+      "url": "bitcoin:bc1qcwamquntxshqsjcra6vryftrfd9z57j02g3ywq"
+    },
+    {
+      "type": "ethereum",
+      "url": "ethereum:0xe3e3ed78d9f8A935a9a0fCE2a7305F2f5DBabAD8"
+    },
+    {
+      "type": "solana",
+      "address": "CWsbNQRxNzAasLd2zfwkEkbBZXKxfoxva14pe8wawUju"
+    },
+    {
+      "type": "trx",
+      "address": "TCW9eaRWjpivZvnZ5DwgbWxPRpoZNWbuPe"
+    },
+    {
+      "type": "ton",
+      "url": "ton://transfer/UQCWDwqtvC_jml2hSf8laNQu4chYVCbHBpkbKbyDdxzM7Ma0"
+    },
+    {
+      "type": "dogecoin",
+      "url": "dogecoin:DMAkWQKx1H6ESG3beDBssn5mAAZcwkrYVh"
+    }
+  ],
+  "bin": {
+    "cw": "cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev:npm": "npm i --package-lock-only",
+    "dev:pnpm": "pnpm install --lockfile-only",
+    "lint": "pnpm exec eslint src/*.js",
+    "test": "ava"
+  },
+  "files": [
+    "cli.js",
+    "./src/"
+  ],
+  "keywords": [
+    "cw",
+    "cli",
+    "cli-app",
+    "console",
+    "command-line",
+    "terminal",
+    "generator",
+    "crypto",
+    "cryptocurrency",
+    "wallet",
+    "mnemonic",
+    "cryptowallet",
+    "bitcoin",
+    "btc",
+    "ethereum",
+    "eth",
+    "erc20",
+    "binance",
+    "binance-coin",
+    "binance-smart-chain",
+    "bsc",
+    "bnb",
+    "sol",
+    "solana",
+    "sui",
+    "sui-blockchain",
+    "sui-wallet",
+    "ton",
+    "the-open-network",
+    "cardano",
+    "ripple",
+    "stellar",
+    "base",
+    "litecoin",
+    "ltc",
+    "bitcoin-cash",
+    "bch",
+    "polygon",
+    "dogecoin",
+    "doge",
+    "tron",
+    "trx",
+    "metamask",
+    "trust-wallet",
+    "phantom",
+    "tonkeeper",
+    "tronlink",
+    "bip39",
+    "bip84",
+    "multiple wallets",
+    "crypto wallets",
+    "wallet generation"
+  ],
+  "dependencies": {
+    "@binance-chain/javascript-sdk": "^4.2.2",
+    "@emurgo/cardano-serialization-lib-nodejs": "^15.0.3",
+    "@harmony-js/account": "^0.1.57",
+    "@mysten/sui": "^2.3.1",
+    "@solana/web3.js": "^1.98.4",
+    "@ton/core": "^0.63.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^16.2.2",
+    "@yerofey/dogecoin-bip84": "^0.0.5",
+    "@yerofey/litecoin-bip84": "^0.0.5",
+    "bigint-buffer": "^1.1.5",
+    "bip32": "^5.0.0",
+    "bip39": "^3.1.0",
+    "bip84": "^0.2.9",
+    "bip86": "^0.0.4",
+    "bs58": "^6.0.0",
+    "cardano-wallet-js": "^1.4.0",
+    "chalk": "5.6.2",
+    "clipboardy": "^5.2.1",
+    "coininfo": "5.2.1",
+    "coinkey": "3.0.0",
+    "columnify": "1.6.0",
+    "commander": "^14.0.3",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.4",
+    "ed25519-hd-key": "^1.3.0",
+    "eth-lib": "0.1.29",
+    "ethereum-bip84": "0.0.3",
+    "ethereum-cryptography": "^3.2.0",
+    "ethereum-mnemonic-privatekey-utils": "1.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "ripple-address-codec": "^5.0.0",
+    "ripple-keypairs": "^2.0.0",
+    "stellar-hd-wallet": "^1.0.2",
+    "tezos-sign": "1.4.1",
+    "tiny-secp256k1": "^2.2.4",
+    "tonweb": "^0.0.66",
+    "tronweb": "^6.2.0",
+    "xrpl": "^4.5.0"
+  },
+  "devDependencies": {
+    "ava": "^6.4.1",
+    "eslint": "^10.0.0"
+  }
+}
